@@ -13,6 +13,8 @@
 		3A0E24191CDB6AD700607DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E24181CDB6AD700607DDD /* Assets.xcassets */; };
 		3A0E241C1CDB6AD700607DDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E241A1CDB6AD700607DDD /* LaunchScreen.storyboard */; };
 		3A0E24271CDB6AD700607DDD /* PeterPan_0505UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E24261CDB6AD700607DDD /* PeterPan_0505UITests.swift */; };
+		3A0E24321CDB867300607DDD /* chimin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E24311CDB867300607DDD /* chimin.jpg */; };
+		3A0E24341CDB86F100607DDD /* ChiMinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E24331CDB86F100607DDD /* ChiMinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		3A0E24221CDB6AD700607DDD /* PeterPan_0505UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeterPan_0505UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0E24261CDB6AD700607DDD /* PeterPan_0505UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeterPan_0505UITests.swift; sourceTree = "<group>"; };
 		3A0E24281CDB6AD700607DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0E24311CDB867300607DDD /* chimin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chimin.jpg; sourceTree = "<group>"; };
+		3A0E24331CDB86F100607DDD /* ChiMinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChiMinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +83,10 @@
 			children = (
 				3A0E24111CDB6AD700607DDD /* AppDelegate.swift */,
 				3A0E24131CDB6AD700607DDD /* ViewController.swift */,
+				3A0E24331CDB86F100607DDD /* ChiMinViewController.swift */,
 				3A0E24151CDB6AD700607DDD /* Main.storyboard */,
 				3A0E24181CDB6AD700607DDD /* Assets.xcassets */,
+				3A0E24311CDB867300607DDD /* chimin.jpg */,
 				3A0E241A1CDB6AD700607DDD /* LaunchScreen.storyboard */,
 				3A0E241D1CDB6AD700607DDD /* Info.plist */,
 			);
@@ -178,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A0E241C1CDB6AD700607DDD /* LaunchScreen.storyboard in Resources */,
+				3A0E24321CDB867300607DDD /* chimin.jpg in Resources */,
 				3A0E24191CDB6AD700607DDD /* Assets.xcassets in Resources */,
 				3A0E24171CDB6AD700607DDD /* Main.storyboard in Resources */,
 			);
@@ -199,6 +206,7 @@
 			files = (
 				3A0E24141CDB6AD700607DDD /* ViewController.swift in Sources */,
 				3A0E24121CDB6AD700607DDD /* AppDelegate.swift in Sources */,
+				3A0E24341CDB86F100607DDD /* ChiMinViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
